@@ -1,0 +1,5 @@
+# block definitions
+bdef symbol:w width:50 height:25 hit_points:2 fill-2:color(black) fill-1:color(white) stroke:color(black)
+
+# spacers definitions
+sdef symbol:- width:50

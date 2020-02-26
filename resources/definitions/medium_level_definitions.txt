@@ -1,0 +1,72 @@
+
+# Level 1
+#  Background and nice blocks
+
+START_LEVEL
+level_name:Follow the money
+ball_velocities:4,8
+background:image(background_images/treasure.png)
+paddle_speed:5
+paddle_width:150
+block_definitions:definitions/treasure_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:24
+START_BLOCKS
+
+-mmmmmmmmmmmmm--
+----------------
+bbbbbbbbbbbbbbbb
+----------------
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+#  Background and nice blocks
+
+START_LEVEL
+level_name:My name
+ball_velocities:3,6 -3,-6
+background:image(background_images/game.jpeg)
+paddle_speed:5
+paddle_width:150
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:7
+START_BLOCKS
+
+-------------
+-r--r-r-r-rrr
+-r--r-r-r---r
+---rrrr-r---r
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+#  Simple level
+
+START_LEVEL
+level_name:Find seven blocks
+ball_velocities:2,4 -2,-6 2,6
+background:color(black)
+paddle_speed:5
+paddle_width:250
+block_definitions:definitions/hide_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:24
+START_BLOCKS
+
+---w----w---w
+w------------
+---w---------
+w--------w---
+
+END_BLOCKS
+END_LEVEL
